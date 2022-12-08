@@ -24,7 +24,7 @@ print ("\033[1;33m8.\033[1;31mSalir...!!\033[0m")
 print (30 * '-')
  
 ## Get input ###
-choice = raw_input('\033[1;33mingresa tu opcion: \033[0m')
+choice = input('\033[1;33mingresa tu opcion: \033[0m')
  
 ### Convert string to int type ##
 choice = int(choice)
